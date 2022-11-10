@@ -33,4 +33,14 @@ public class ScoreManager : MonoBehaviour
          PlayerPrefs.SetInt("Hightscore",Score);   
         }
     }
+
+    public void DownPoint()
+    {
+        Score -= 1;
+        ScoreText.text = Score.ToString() + " POINTS";
+        if (Hightscore < Score)
+        {
+            PlayerPrefs.SetInt("Hightscore", Score);
+        }
+    }
 }

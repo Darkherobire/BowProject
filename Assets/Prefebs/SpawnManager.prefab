@@ -46,8 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObstaclePrefebs:
   - {fileID: 6972858257271460440, guid: e9e7133745f682843b0686861acaec55, type: 3}
+  - {fileID: 6972858257271460440, guid: 6c2d272abc5778f49a96c624963307bc, type: 3}
   spawnRangex: 6
   spawnRangez: 20
-  spawnRangey: 1
-  spawnTime: 3
-  spawnDelay: 3
+  spawnRangey: 1.5
+  spawnTime: 2
+  spawnDelay: 4

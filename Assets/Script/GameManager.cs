@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public bool gameEnd = false;
 
-    private float RestartDelay = 3f; 
+    [SerializeField] private float RestartDelay = 3f; 
     // Start is called before the first frame update
     void Start()
     {

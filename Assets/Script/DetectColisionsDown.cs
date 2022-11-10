@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DetectColisions : MonoBehaviour
+public class DetectColisionsDown : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -20,14 +20,14 @@ public class DetectColisions : MonoBehaviour
     {
         if (other.tag == "AMMO")
         {
-         ScoreManager.instance.AddPoint();
-        Destroy(gameObject);
-        Destroy(this.gameObject);   
+            ScoreManager.instance.DownPoint();
+            Destroy(gameObject);
+            Destroy(this.gameObject);   
         }
 
         if (other.tag == "Finish")
         {
-         GameManager.instance.EndGame();   
+            Destroy(this.gameObject);
         }
         
     }
