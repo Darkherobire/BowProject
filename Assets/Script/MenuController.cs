@@ -7,6 +7,6 @@ public class MenuController : MonoBehaviour
 {
     public void StartBtn()
     {
-        SceneManager.LoadScene("MINIGAME01");
+        SceneManager.LoadScene("MINIGAME_Endless");
     }
 }

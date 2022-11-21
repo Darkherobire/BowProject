@@ -7,6 +7,6 @@ public class MenuController1 : MonoBehaviour
 {
     public void StartBtn1()
     {
-        SceneManager.LoadScene("MINIGAME02");
+        SceneManager.LoadScene("MINIGAME_Timer");
     }
 }
