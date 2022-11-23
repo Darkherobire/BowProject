@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/Main.unity
+    path: Assets/Scene/not use/Main.unity
     guid: 88c3efa74c57fd248b0ad3012ffe8334
   - enabled: 1
     path: Assets/Scene/MINIGAME_Endless.unity
