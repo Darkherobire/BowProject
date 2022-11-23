@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: cc421da483ed06c49933077a621bff25, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 133347283e115d147a5fcce7f47a538f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3273415, g: 0.2819711, b: 0.41690004, a: 1}
+  m_IndirectSpecularColor: {r: 0.6659461, g: 0.88264465, b: 0.88569516, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6704,9 +6704,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5d6613ed398fbfb4fa44c0dabad01429, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 56a62ef987da0c24e982028b65caf68e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.2
   m_Pitch: 1.29
   Loop: 1
   Mute: 0
@@ -9485,6 +9485,10 @@ PrefabInstance:
       value: SpawnManager
       objectReference: {fileID: 0}
     - target: {fileID: 3414402860633173339, guid: eeb44f57721eeca4c9c8f78f0ef679d2, type: 3}
+      propertyPath: ObstaclePrefebs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414402860633173339, guid: eeb44f57721eeca4c9c8f78f0ef679d2, type: 3}
       propertyPath: ObstaclePrefebs.Array.data[0]
       value: 
       objectReference: {fileID: 1773656247975474, guid: 146048f465f358043a9c83f497ad3227, type: 3}
@@ -9492,5 +9496,9 @@ PrefabInstance:
       propertyPath: ObstaclePrefebs.Array.data[1]
       value: 
       objectReference: {fileID: 1773656247975474, guid: 57d78de69bcaf8a4e969c0c3350b859b, type: 3}
+    - target: {fileID: 3414402860633173339, guid: eeb44f57721eeca4c9c8f78f0ef679d2, type: 3}
+      propertyPath: ObstaclePrefebs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1773656247975474, guid: 146048f465f358043a9c83f497ad3227, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eeb44f57721eeca4c9c8f78f0ef679d2, type: 3}
