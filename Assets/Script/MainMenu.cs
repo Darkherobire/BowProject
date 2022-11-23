@@ -5,10 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private string menuScene;
-    [SerializeField] private string gameScene1;
-    [SerializeField] private string gameScene2;
+    [SerializeField] private string modeEndless;
+    [SerializeField] private string modeTimer;
 
+    public void ModeEndless()
+    {
+        SceneManager.LoadScene(modeEndless);
+    }
+    
+    public void ModeTimer()
+    {
+        SceneManager.LoadScene(modeTimer);
+    }
+    
     public void QuitGame() 
     {
         Debug.Log("Quiting game...");
