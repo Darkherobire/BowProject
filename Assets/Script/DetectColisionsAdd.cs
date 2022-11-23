@@ -20,7 +20,7 @@ public class DetectColisionsAdd : MonoBehaviour
     {
         if (other.tag == "AMMO")
         {
-            ScoreManager.instance.AddPoint();
+            ScoreManager.Instance.AddPoint();
             Destroy(gameObject);
             Destroy(this.gameObject);   
         }

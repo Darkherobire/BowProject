@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3414402860633173338}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -154.72203, y: 343.20865, z: -979.4437}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
   ObstaclePrefebs:
   - {fileID: 6972858257271460440, guid: e9e7133745f682843b0686861acaec55, type: 3}
   - {fileID: 6972858257271460440, guid: 6c2d272abc5778f49a96c624963307bc, type: 3}
-  spawnRangex: 6
-  spawnRangez: 20
+  spawnRangex: 10
+  spawnRangez: 30
   spawnRangey: 1.5
   spawnTime: 2
   spawnDelay: 4

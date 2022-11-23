@@ -21,6 +21,9 @@ MonoBehaviour:
   - UI
   - Interactable
   - Lock
+  - Hand
+  - Portal
+  - Hide
   - 
   - 
   - 
@@ -41,7 +44,4 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Teleport
