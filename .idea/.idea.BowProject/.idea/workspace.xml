@@ -6,46 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c02c201d-2112-4c11-9614-900aba30a948" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BowProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BowProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/Meshtint Free Boximon Fiery Mega Toon Series/Materials/Boximon Fiery 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/Meshtint Free Boximon Fiery Mega Toon Series/Materials/Boximon Fiery 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/Meshtint Free Boximon Fiery Mega Toon Series/Materials/Boximon Fiery.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/Meshtint Free Boximon Fiery Mega Toon Series/Materials/Boximon Fiery.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Loaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Loaders/Open XR Loader No Pre Init.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Loaders/Open XR Loader No Pre Init.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Loaders/Open XR Loader.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Loaders/Open XR Loader.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Settings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Settings/Open XR Package Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Settings/Open XR Package Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Settings/OpenXR Editor Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/Settings/OpenXR Editor Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/XRGeneralSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XR/XRGeneralSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_InProgress/Climbing/ClimbingLocomotion 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_InProgress/Climbing/ClimbingLocomotion 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_InProgress/HandPoser/HandPoser.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_InProgress/HandPoser/HandPoser.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_InProgress/HandPoser/Prefabs/Interactables/CubeInteractable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_InProgress/HandPoser/Prefabs/Interactables/CubeInteractable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_InProgress/HandPoser/Prefabs/Interactables/CylinderInteractable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_InProgress/HandPoser/Prefabs/Interactables/CylinderInteractable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_InProgress/MultiGrab/MultiGrab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_InProgress/MultiGrab/MultiGrab.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/BowAndArrow/Prefabs/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/BowAndArrow/Prefabs/Arrow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/BowAndArrow/Prefabs/Bow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/BowAndArrow/Prefabs/Bow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/BowAndArrow/Prefabs/Quiver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/BowAndArrow/Prefabs/Quiver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/FaithPlate/FaithPlate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/FaithPlate/FaithPlate.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/FaithPlate/Prefabs/FaithPlate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/FaithPlate/Prefabs/FaithPlate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/MultiSelect/MultiSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/MultiSelect/MultiSelect.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Other/_Samples/SteeringWheel/SteeringWheel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Other/_Samples/SteeringWheel/SteeringWheel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefebs/SpawnManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefebs/SpawnManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/MINIGAME_Endless.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/MINIGAME_Endless.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/MINIGAME_Timer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/MINIGAME_Timer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DetectColisionsAdd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DetectColisionsAdd.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DetectColisionsDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DetectColisionsDown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

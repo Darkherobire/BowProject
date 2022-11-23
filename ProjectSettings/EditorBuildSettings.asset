@@ -6,20 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/not use/Main.unity
-    guid: 88c3efa74c57fd248b0ad3012ffe8334
+    path: Assets/Scene/MainMenu.unity
+    guid: 0973219484981904cbc139ef0543d532
   - enabled: 1
     path: Assets/Scene/MINIGAME_Endless.unity
     guid: 0bdc2251efd355d45add28195d99d336
   - enabled: 1
-    path: Assets/Scene/MINIGAME02.unity
-    guid: 99be210b0d654de46930e90a75bee99f
-  - enabled: 1
-    path: Assets/Scene/not use/MINIGAME03.unity
-    guid: 320ff450b1a85314f921bb14ef3bbd44
-  - enabled: 1
-    path: Assets/Scene/not use/MINIGAME04.unity
-    guid: 5a0fa3777d417cd42af3f0f2dc92c215
+    path: Assets/Scene/MINIGAME_Timer.unity
+    guid: 2cf9f2194c70abd41af22b3618ec145c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 51fb8589e726e284c8645f0f4a8aa029, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 664947ae87377d743bd63c96cee830d1, type: 2}
