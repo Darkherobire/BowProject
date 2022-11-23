@@ -30,6 +30,7 @@ public class CountdownTimer : MonoBehaviour
                 Debug.Log("Time is UP!");
                 Timeleft = 0;
                 TimerOn = false;
+                GameManager.instance.EndGame();
             }
         }
     }
