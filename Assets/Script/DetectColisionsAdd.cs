@@ -29,7 +29,12 @@ public class DetectColisionsAdd : MonoBehaviour
         {
             GameManager.instance.EndGame();   
         }
-        
+
+        if (other.tag == "Block")
+        {
+            Destroy(this.gameObject);
+        }
+
     }
     
 }

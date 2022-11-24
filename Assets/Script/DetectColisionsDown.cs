@@ -29,11 +29,6 @@ public class DetectColisionsDown : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-        if (other.tag == "Block")
-        {
-            Destroy(gameObject);
-        }
     }
     
 }
