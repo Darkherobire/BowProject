@@ -1,20 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class DestroySecond : MonoBehaviour
 {
-    [SerializeField]
-    private float DestroyDelay = 5f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [FormerlySerializedAs("DestroyDelay")] [SerializeField]
+    private int destroyDelay = 20;
 
     // Update is called once per frame
     void Update()
     { 
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 20);
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Ground")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

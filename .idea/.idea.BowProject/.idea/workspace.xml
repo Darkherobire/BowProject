@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c02c201d-2112-4c11-9614-900aba30a948" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BowProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BowProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/MINIGAME_Timer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/MINIGAME_Timer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DestroySecond.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DestroySecond.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DetectColisionsAdd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DetectColisionsAdd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +81,7 @@
       <updated>1668047999081</updated>
       <workItem from="1668048000605" duration="482000" />
       <workItem from="1669198021570" duration="5054000" />
+      <workItem from="1669621804160" duration="1529000" />
     </task>
     <servers />
   </component>
