@@ -4,6 +4,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 [RequireComponent(typeof(PullMeasurer))]
 public class Notch : XRSocketInteractor
 {
+    [SerializeField]
+    private AudioSource bowReleaseAudioSource;
     [Range(0, 1)] public float releaseThreshold = 0.25f;
 
     public PullMeasurer PullMeasurer { get; private set; } = null;
@@ -39,6 +41,7 @@ public class Notch : XRSocketInteractor
         // Only release if the target is an arrow using custom deselect
         if (hasSelection & PullMeasurer.PullAmount > releaseThreshold)
             interactionManager.SelectExit(this, firstInteractableSelected);
+        bowReleaseAudioSource.Play();
     }
 
     public void MoveAttach(Vector3 pullPosition, float pullAmount)
