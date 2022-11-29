@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DetectColisionsDown : MonoBehaviour
 {
+    Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class DetectColisionsDown : MonoBehaviour
         if (other.tag == "AMMO")
         {
             ScoreManager.Instance.DownPoint();
+            anim.Play("Death");
             Destroy(gameObject);
             Destroy(this.gameObject);   
         }
