@@ -9,6 +9,10 @@ public class CountdownTimer : MonoBehaviour
     public bool TimerOn = false;
 
     public Text TimerText;
+    
+    public GameObject panelEndGame;
+    public GameObject leftHand;
+    public GameObject rightHand;
 
     void Start()
     {
@@ -30,7 +34,10 @@ public class CountdownTimer : MonoBehaviour
                 Debug.Log("Time is UP!");
                 Timeleft = 0;
                 TimerOn = false;
-                GameManager.instance.EndGame();
+                panelEndGame.SetActive(true);
+                leftHand.SetActive(true);
+                rightHand.SetActive(true);
+                GameManager.Instance.EndGame();
             }
         }
     }

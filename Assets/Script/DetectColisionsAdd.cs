@@ -19,7 +19,7 @@ public class DetectColisionsAdd : MonoBehaviour
 
         if (other.tag == "Finish")
         {
-            GameManager.instance.EndGame();   
+            GameManager.Instance.EndGame();   
         }
 
         if (other.tag == "Block")

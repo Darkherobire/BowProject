@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private string modeEndless;
     [SerializeField] private string modeTimer;
+    [SerializeField] private string mainMenu;
 
     public void ModeEndless()
     {
@@ -18,6 +20,16 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(modeTimer);
     }
     
+    public void MainScene()
+    {
+        SceneManager.LoadScene(mainMenu);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     public void QuitGame() 
     {
         Debug.Log("Quiting game...");
