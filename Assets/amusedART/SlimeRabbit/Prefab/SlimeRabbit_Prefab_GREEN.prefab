@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 6614030772269717641}
   m_Layer: 0
   m_Name: SlimeRabbit_Prefab_GREEN
-  m_TagString: Enemy
+  m_TagString: SafeEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
