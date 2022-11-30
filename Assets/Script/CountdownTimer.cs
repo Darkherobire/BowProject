@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,7 +38,7 @@ public class CountdownTimer : MonoBehaviour
                 panelEndGame.SetActive(true);
                 leftHand.SetActive(true);
                 rightHand.SetActive(true);
-                GameManager.Instance.EndGame();
+                Time.timeScale = 0f;
             }
         }
     }

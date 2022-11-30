@@ -10,35 +10,43 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape)) {
-            if(GameIsPaused) {
+        if(Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            if(GameIsPaused) 
+            {
                 Resume();
-            } else {
+            } 
+            else 
+            { 
                 Pause();
             }
         }
     }
 
-    public void Resume() {
+    public void Resume() 
+    {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false; 
     }
 
-    void Pause() {
+    public void Pause() 
+    {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true; 
     }
 
-    public void LoadMenu() {
+    public void LoadMenu() 
+    {
         Debug.Log("Loading menu...");
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void QuitGame() {
+    public void QuitGame() 
+    {
         Debug.Log("Quiting game...");
         Application.Quit();
     }
