@@ -1443,7 +1443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9241f3dc0a2e6574e83b7dcb850bc68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Timeleft: 120
+  Timeleft: 5
   TimerOn: 0
   TimerText: {fileID: 1153503769}
   panelEndGame: {fileID: 930445357}
@@ -12260,6 +12260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8710111848830564741, guid: b6fc5803c67e8554f973232806120380, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8710111848830564794, guid: b6fc5803c67e8554f973232806120380, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -12419,7 +12423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9058575910501153187, guid: 883ac87e6c586ce4aaab61ddc77b9dd3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 883ac87e6c586ce4aaab61ddc77b9dd3, type: 3}
