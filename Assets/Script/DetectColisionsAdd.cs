@@ -18,7 +18,7 @@ public class DetectColisionsAdd : MonoBehaviour
 
         if (other.tag == "Finish")
         {
-            GameManager.Instance.EndGame();
+            Destroy(this.gameObject);
         }
 
         if (other.tag == "Block")
