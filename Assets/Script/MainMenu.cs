@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour
     
     public void ModeTimer()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(modeTimer);
     }
     
